@@ -7,7 +7,7 @@ BIN_DIR = ./bin
 
 SRCS = $(wildcard $(SRC_DIR)/*.c)
 OBJS = $(SRCS:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
-TARGET = $(BIN_DIR)/byooop
+TARGET = $(BIN_DIR)/byodc
 
 all: $(OBJ_DIR) $(BIN_DIR) $(TARGET)
 
